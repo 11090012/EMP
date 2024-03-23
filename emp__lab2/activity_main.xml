@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393430"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="94dp"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="Enter your last name"
+        android:inputType="text"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="94dp"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="Enter your phone"
+        android:inputType="phone"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LastName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="140dp"
+        android:text="Registation"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="94dp"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#2196F3"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
